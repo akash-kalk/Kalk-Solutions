@@ -1,0 +1,21 @@
+User-agent: *
+Allow: /
+Disallow: /free-audit/thank-you
+
+# AI crawlers — explicitly allowed (we want our content indexed across LLMs)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+Sitemap: https://kalksolutions.com/sitemap.xml
